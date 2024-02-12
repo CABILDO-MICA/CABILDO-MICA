@@ -1,0 +1,20 @@
+class program
+{
+	public static void Main()
+	{
+		int year = 1;
+		double Salary = 0;
+		double raisePercentage = 0.07;
+		System.Console.Write("Enter the starting salary");
+		Salary double.Parse(System.Console.ReadLine());
+		double totalsalary = 0; \\ intialized totalsalary outside the loop
+		while(years <= 5)
+		{
+		double raiseAmount = salary * raisePercentage;
+		Salary += Salary; \\ update salary with the raise
+		totalsalary += Salary; \\ add current salary to total salary
+		System.Console.WriteLine($"{year}",{Salary},{raise Amount}");
+		year ++;
+		}
+	}
+}
