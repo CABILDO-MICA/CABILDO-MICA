@@ -1,0 +1,27 @@
+public static class Program
+{
+	public static void Main()
+	{
+       double numStudents = 0;
+	     double totalgrade = 0;
+	     double totalgrademark = 0;
+	   
+	     Console.Write("Enter the number of students: ");
+	     numStudents = int.Parse(Console.ReadLine());
+	   
+	     double i = 1;
+	     while(i <= numStudents)
+	   {	
+	      Console.Write("Enter the score percentage for students: ");
+		  i++;
+		  double scorepercentage = double.Parse(Console.ReadLine());
+		  double gradepoint = (scorepercentage * 0.5) + 50;
+      double grademark = double.Parse($"grademark");
+		  double n = 1;
+		  while(n <= scorepercentage)
+		  totalgrade = gradepoint;
+		  totalgrademark = grademark;
+		  i++;
+	   }
+	}
+}
