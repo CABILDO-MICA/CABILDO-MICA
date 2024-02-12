@@ -1,0 +1,20 @@
+public static class Program
+{
+	public static void Main()
+	{
+	   
+        Console.Write("Enter the hoursWorked: ");
+		int hoursWorked = int.Parse(Console.ReadLine());
+		
+		int hourlyRate=10;
+		int WeeklyGrossPay= hoursWorked*hourlyRate;
+		
+		for ( int i = 1; i <= 1; i++)
+		{ 
+		    Console.WriteLine($"Weekly Gross Pay is: {WeeklyGrossPay}");
+		}
+		
+		
+		
+	}
+}
